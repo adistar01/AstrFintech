@@ -1,0 +1,57 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import {Icon} from "astro-icon";
+---
+
+<MainLayout title="Home" description="My Home Page">
+    <div class="container mx-auto mt-8 px-4">
+        <section class="text-center">
+          <h2 class="text-4xl font-bold mb-4">Welcome to Fintech Startup</h2>
+          <p class="text-gray-600">We provide innovative financial solutions for individuals and businesses.</p>
+        </section>
+    
+        <section class="mt-8">
+          <div class="flex justify-center items-center">
+            <div class="w-1/2">
+              <img src="fintech-image.jpg" alt="Fintech Startup" class="rounded-lg">
+            </div>
+            <div class="w-1/2 pl-8">
+              <h3 class="text-2xl font-bold mb-4">Empowering Your Financial Success</h3>
+              <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer hendrerit,
+                ligula eu aliquam consectetur, lectus est faucibus erat, eu convallis dolor dui non augue.</p>
+              <a href="#" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Learn
+                More</a>
+            </div>
+          </div>
+        </section>
+    
+        <section class="mt-8">
+          <h3 class="text-2xl font-bold mb-4 text-center">Our Services</h3>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded shadow">
+              <h4 class="text-lg font-bold mb-2">Personal Finance</h4>
+              <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer hendrerit, ligula eu
+                aliquam consectetur.</p>
+            </div>
+            <div class="bg-white p-6 rounded shadow">
+              <h4 class="text-lg font-bold mb-2">Business Solutions</h4>
+              <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer hendrerit, ligula eu
+                aliquam consectetur.</p>
+            </div>
+            <div class="bg-white p-6 rounded shadow">
+              <h4 class="text-lg font-bold mb-2">Investment Strategies</h4>
+              <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer hendrerit, ligula eu
+                aliquam consectetur.</p>
+            </div>
+          </div>
+        </section>
+    
+        <section class="mt-8 text-center">
+          <h3 class="text-2xl font-bold mb-4">Contact Us</h3>
+          <p class="text-gray-600">Have a question or want to learn more? Get in touch with our team.</p>
+          <a href="#" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Contact
+            Us</a>
+        </section>
+    </div>
+</MainLayout>
+
